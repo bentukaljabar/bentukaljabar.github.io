@@ -10,11 +10,12 @@ let token = document.getElementById('token');
 
 token.value="";
 
-window.addEventListener('message', function(event) {
-    alert(`Received ${event.data}`);
-    let datanya = event.data
-    console.log(datanya)
-});
+window.onmessage = function(e) {
+
+    var payload = JSON.parse(e.data);
+    localStorage.setItem(payload.key, payload.data);
+    
+};
 
 // mengambil data user
 let data2 =level_user+"/"+id_user+"/";
