@@ -10,13 +10,7 @@ let token = document.getElementById('token');
 
 token.value="";
 
-window.onmessage = function(e) {
-
-    var payload = JSON.parse(e.data);
-    localStorage.setItem(payload.key, payload.data);
-    
-};
-
+console.log(id_user, level_user)
 // mengambil data user
 let data2 =level_user+"/"+id_user+"/";
 var dbRef2 = firebase.database().ref(data2);
