@@ -147,6 +147,8 @@ const meanampilkan_waktu = (waktu, paksaberhenti) =>{
             localStorage.removeItem("dataPilihanUserAda");
             localStorage.removeItem("urutan_soal");
             localStorage.removeItem("waktuTerakhir");
+            localStorage.removeItem("id_token");
+            localStorage.removeItem("token");
         }
     }, 1000);
 
@@ -226,7 +228,7 @@ function kanan_akhir(nama,kelas,skor,keterangan,waktu){
         </div>
 
     <div class="general">
-        <h1>Muhammad Ridhani</h1>
+        <h1>${nama}</h1>
         <hr>
         <table class="hasilnya">
                 <tr>
