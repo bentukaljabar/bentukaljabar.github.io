@@ -10,17 +10,11 @@ let token = document.getElementById('token');
 
 token.value="";
 
-window.addEventListener("message", function(event) {
-    if (event.origin != 'http://javascript.info') {
-      // something from an unknown domain, let's ignore it
-        return;
-    }
-
-    alert( "received: " + event.data );
-
-    // can message back using event.source.postMessage(...)
+window.addEventListener('message', function(event) {
+    alert(`Received ${event.data}`);
+    let datanya = event.data
+    console.log(datanya)
 });
-
 
 // mengambil data user
 let data2 =level_user+"/"+id_user+"/";
