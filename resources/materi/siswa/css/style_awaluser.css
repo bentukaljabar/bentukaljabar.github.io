@@ -1,0 +1,329 @@
+:root {
+    --font-1: 1.4vw;
+    --font-2: 3.2vw;
+    --font-3: 1.7vw;
+
+    --color-base :rgba(0, 0, 0, 0.596);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bg {
+    background-color: #e6e9fc;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.data_gambar{
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+.img_bg{
+    margin-top: 20vh;
+    width: 50vw;
+}
+
+.data_diri{
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+.data_diri table {
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin: 20px auto;
+    box-sizing: border-box;
+    margin-top: 20vh;
+    height: 62%;
+    box-shadow: 5px 7px 3px #888888;
+}
+
+.data_diri td {
+    padding: 5px;
+    font-size: var(--font-1);
+}
+
+.data_diri input {
+    font-size: var(--font-1);
+    width: 100%;
+    padding: 5px;
+}
+
+.masuk {
+    font-size: var(--font-1);
+    width: 100%;
+    background-color: #2ecc71;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.masuk:hover{
+    background-color: #24b35f;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: #4c5ab8;
+    position: absolute;
+}
+
+.logout{
+    background-color: rgb(218, 0, 0);
+    height: 100%;
+    line-height: 50px;
+    padding: 0px 20px 0px 20px;
+    color: white;
+    float: right;
+    cursor: pointer;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.setting{
+    height: 100%;
+    line-height: 50px;
+    padding: 0px 15px 0px 20px;
+    color: white;
+    float: left;
+    cursor: pointer;
+}
+
+.setting:hover{
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+.fas {
+    padding-right: 15px;
+}
+
+.logout:hover{
+    background-color: rgb(197, 0, 0);
+}
+
+.data_diri_user{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-base);
+    z-index: 10;
+}
+
+.bg_datanya{
+    background-color: white;
+    width: 50%;
+    height: 80%;
+    margin: 5% auto;
+    border-radius: 10px;
+}
+
+.jdl_data{
+    font-size: var(--font-3);
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0px;
+    width: 90%;
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--color-base);
+}
+
+.close{
+    font-size: var(--font-2);
+    font-weight: bold;
+    width: 9%;
+    text-align: right;
+    padding-right: 15px;
+    line-height: 100%;
+    display: inline-block;
+    cursor: pointer;
+    color: var(--color-base);
+}
+
+.t_data{
+    width: 90%;
+    font-size: var(--font-1);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.t_data input, select{
+    width: 100%;
+}
+
+td{
+    padding: 10px;
+}
+
+select{
+    font-size: 1vw;
+    padding: 5px;
+}
+
+.t_data input , .t_data tr, option{
+    padding: 5px;
+}
+
+.close:hover{
+    color: red;
+}
+
+td label{
+    display: inline;
+    font-size: 1vw;
+}
+
+label input{
+    display: inline;
+    width: auto !important;
+}
+
+.hilang{
+    display: none;
+}
+
+.wjb{
+    color: red;
+    font-size: var(--font-3);
+}
+
+.ket1{
+    color: red;
+    font-size: 1vw;
+}
+
+@media only screen and (max-width:1300px) {
+    .data_diri table {
+        margin-top: 20vh; 
+        height: 55%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .img_bg{
+        position: static;
+        margin-top: 10vh;
+        width: 70%;
+    }
+
+    .data_gambar{
+        float: none;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .data_diri{
+        float: none;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    
+    .data_diri table {
+        padding: 10px;
+        border: 2px solid white;
+        margin: 20px auto;
+        margin-top: 40vh;
+        box-shadow: 0px 7px 3px #888888;
+        height: auto;
+    }
+    
+    .data_diri td {
+        padding: 10px 3px;
+        font-size: var(--font-2);
+    }
+    
+    .data_diri input {
+        font-size: var(--font-2);
+        padding: 5px;
+    }
+    
+    .masuk {
+        font-size: var(--font-2);
+        width: 100%;
+        padding: 5px;
+    }
+
+    .nav{
+        height: 40px;
+        z-index: 99;
+    }
+    
+    .logout{
+        line-height: 40px;
+        font-size: 13px;
+    }
+
+    .setting{
+        line-height: 40px;
+        font-size: 13px;
+    }
+
+    
+    .bg_datanya{
+        width: 90%;
+        height: 58%;
+        margin: 70px auto;
+        margin-top: 30vh;
+    }
+
+    .jdl_data{
+        font-size: var(--font-2);
+        font-weight: bold;
+        text-align: center;
+        padding: 15px 0px;
+        width: 85%;
+    }
+
+    .close{
+        font-size: 6vw;
+        width: 9%;
+        text-align: right;
+        line-height: 100%;
+    }
+
+    .t_data{
+        width: 95%;
+        font-size: var(--font-2);
+    }
+
+
+    td{
+        padding: 5px;
+    }
+
+    select{
+        font-size: var(--font-2);
+    }
+
+    .t_data input , .t_data tr, option{
+        padding: 3px;
+    }
+
+    .wjb, .ket1{
+        font-size: var(--font-2);
+    }
+
+    td label{
+        display: inline;
+        font-size: 3vw;
+    }
+}

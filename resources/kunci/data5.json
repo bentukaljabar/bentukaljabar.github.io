@@ -1,0 +1,102 @@
+[{
+    "soal0": {
+        "soal": "Sederhankan bentuk aljabar berikut \\[ \\frac{6xy}{2x} \\] .  .  .  .",
+        "a": "\\[ \\frac{3xy}{x} \\]",
+        "b": "\\[ \\frac{2xy}{x} \\]",
+        "c": "\\[ 3y \\]",
+        "d": "\\[ 2y \\]",
+        "benar": "c",
+        "nih": "\\[ 3y \\]"
+    }
+}, {
+    "soal1": {
+        "soal": "Tulisakan bentuk sederhana dari  bentuk aljabar berikut \\[ \\frac{15a^2 b+3ab^2}{3a} \\] .  .  .  .",
+        "a": "\\[ 5a^2 b+b^2 \\]",
+        "b": "\\[ 5ab+ab \\]",
+        "c": "\\[ 5a^2 b+ab^2 \\]",
+        "d": "\\[ 5ab+b^2 \\]",
+        "benar": "d",
+        "nih": "\\[ 5ab+b^2 \\]"
+    }
+
+}, {
+    "soal2": {
+        "soal": "Tentukan bentuk sederhana dari bentuk aljabar berikut \\[ \\frac{6ab+10ab^2}{4ac} \\] .  .  .  .",
+        "a": "\\[ \\frac{3b+5b^2}{2c} \\]",
+        "b": "\\[ \\frac{3ab+5ab^2}{2ac} \\]",
+        "c": "\\[ \\frac{3ab+5ab^2}{2c} \\]",
+        "d": "\\[ \\frac{3b+5ab^2}{2c} \\]",
+        "benar": "a",
+        "nih": "\\[ \\frac{3b+5b^2}{2c} \\]"
+    }
+}, {
+    "soal3": {
+        "soal": "Sederhankan bentuk aljabar berikut \\[\\frac{6x+2x}{4x}\\]  .  .  .  .",
+        "a": "\\[ \\frac{2x}{4x} \\]",
+        "b": "\\[2\\]",
+        "c": "\\[2x\\]",
+        "d": "\\[ \\frac{3x+x}{2x} \\]",
+        "benar": "b",
+        "nih": "\\[2\\]"
+    }
+}, {
+    "soal4": {
+        "soal": "Tentukan bentuk sederhana dari bentuk aljabar berikut \\[ \\frac{25xy+35xy^2+40}{10}\\] . . . .",
+        "a": "\\[ \\frac{5xy+7xy^2+8}{2} \\]",
+        "b": "\\[ \\frac{5xy+7xy^2+4}{2} \\]",
+        "c": "\\[ \\frac{5y+7y^2+8}{2} \\]",
+        "d": "\\[ \\frac{5x+7xy+8}{2}\\]",
+        "benar": "a",
+        "nih": "\\[ \\frac{5xy+7xy^2+8}{2} \\]"
+    }
+}, {
+    "soal5": {
+        "soal": "Tulisakan bentuk sederhana dari  bentuk aljabar berikut \\[ \\frac{10r+4s}{2t}\\]  .  .  .  . ",
+        "a": "\\[ \\frac{5r+2s}{2t} \\]",
+        "b": "\\[ \\frac{10r+4s}{t} \\]",
+        "c": "\\[ \\frac{5r+4s}{2t}\\]",
+        "d": "\\[ \\frac{5r+2s}{t}\\]",
+        "benar": "d",
+        "nih": "\\[ \\frac{5r+2s}{t}\\]"
+    }
+}, {
+    "soal6": {
+        "soal": "Sederhankan bentuk aljabar berikut \\[ \\frac{6ab+2ac}{4ad}\\]  .  .  .  .",
+        "a": "\\[ \\frac{3b+c}{2d} \\]",
+        "b": "\\[ \\frac{3ab+ac}{2ad} \\]",
+        "c": "\\[ \\frac{6b+2c}{4d}\\]",
+        "d": "\\[ \\frac{b+c}{d}\\]",
+        "benar": "a",
+        "nih": "\\[ \\frac{3b+c}{2d} \\]"
+    }
+}, {
+    "soal7": {
+        "soal": "Tulisakan bentuk sederhana dari  bentuk aljabar berikut \\[ \\frac{6r^2 s + 3s^2 t}{9s}\\]  .  .  .  .",
+        "a": "\\[ \\frac{2s + s^2 t}{3s} \\]",
+        "b": "\\[ \\frac{2r^2+ st}{3} \\]",
+        "c": "\\[ \\frac{6r^2  + 3st}{9} \\]",
+        "d": "\\[ \\frac{6r^2 s + 3st}{9}\\]",
+        "benar": "b",
+        "nih": "\\[ \\frac{2r^2+ st}{3} \\]"
+    }
+}, {
+    "soal8": {
+        "soal": "Sederhankan bentuk aljabar berikut \\[ \\frac{18ab}{4a}\\]  .  .  .  .",
+        "a": "\\[ \\frac{9ab}{4a} \\]",
+        "b": "\\[ \\frac{9b}{2} \\]",
+        "c": "\\[ \\frac{18b}{4} \\]",
+        "d": "\\[ \\frac{19b}{2a} \\]",
+        "benar": "b",
+        "nih": "\\[ \\frac{9b}{2} \\]"
+    }
+}, {
+    "soal9": {
+        "soal": "Sederhankan bentuk aljabar berikut \\[ \\frac{20+3-7}{4x}\\]  .  .  .  .",
+        "a": "\\[ \\frac{6}{x}\\]",
+        "b": "\\[ \\frac{27}{x}\\]",
+        "c": "\\[ \\frac{27}{4x}\\]",
+        "d": "\\[ \\frac{4}{x}\\]",
+        "benar": "d",
+        "nih": "\\[ \\frac{4}{x}\\]"
+    }
+}]

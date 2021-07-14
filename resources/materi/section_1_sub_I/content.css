@@ -1,0 +1,131 @@
+.judul-materi {
+    display: inline-block;
+    background-color: rgb(131, 176, 190);
+    width: 70%;
+    padding: 3px 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: auto;
+    margin: 3px;
+}
+
+nav img,
+nav p {
+    display: inline-block;
+}
+
+.masuk {
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.tebal {
+    font-weight: bold;
+}
+
+.jarak_atas {
+    margin-top: 10px;
+}
+
+.jarak_bawah {
+    margin-bottom: 10px;
+}
+
+form {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+form input,
+form label {
+    cursor: pointer;
+}
+
+form .button {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 11px;
+    padding: 2px 6px;
+    background-color: rgb(131, 176, 190);
+    cursor: pointer;
+    display: inline-block;
+    border: 2px solid rgb(1, 59, 78);
+}
+
+.hilang {
+    display: none;
+}
+
+.disable {
+    background-color: rgb(133, 133, 133) !important;
+    color: rgb(37, 37, 37);
+    cursor: default !important;
+}
+
+.ket,
+.ket1 {
+    background-color: rgb(53, 129, 155);
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.salah {
+    color: red;
+}
+
+.benar {
+    color: lightgreen;
+}
+
+mjx-container {
+    display: inline-block !important;
+}
+
+label p {
+    display: inline-block;
+}
+
+form label {
+    font-size: 18px;
+}
+
+.indet {
+    text-indent: 30px;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+
+@media (min-width : 992px) {
+    .judul-materi {
+
+        font-size: 23px;
+    }
+
+    nav {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .masuk {
+        font-size: 23px;
+    }
+
+    form .button {
+        font-size: 18px;
+        margin-left: 20px;
+        padding: 2px 6px;
+    }
+
+    form label {
+        font-size: 18px;
+    }
+
+
+}

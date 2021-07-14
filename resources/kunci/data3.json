@@ -1,0 +1,102 @@
+[{
+    "soal0": {
+        "soal": "Tentukan hasil perkalian dari \\[7(2x-5)\\] . . . .",
+        "a": "\\[9x-2\\]",
+        "b": "\\[14x-35\\]",
+        "c": "\\[9x-35\\]",
+        "d": "\\[14x+2\\]",
+        "benar": "b",
+        "nih": "\\[14x-35\\]"
+    }
+}, {
+    "soal1": {
+        "soal": "Tentukan koefisien \\[x^2\\] pada \\[(x+2)^2\\]. . . . .",
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4",
+        "benar": "a",
+        "nih": "1"
+    }
+
+}, {
+    "soal2": {
+        "soal": "Hasil perkalian dari \\[2x(x-y+z)\\] . . . .",
+        "a": "\\[2x^2-2xy+2xz\\]",
+        "b": "\\[2x-xyz\\]",
+        "c": "\\[2x^2 yz\\]",
+        "d": "\\[x^2-2xy+xz\\]",
+        "benar": "a",
+        "nih": "\\[2x^2-2xy+2xz\\]"
+    }
+}, {
+    "soal3": {
+        "soal": "Tentukan koefisien ab pada \\[2a(2a+5a-7b)\\]. . . .",
+        "a": "-14",
+        "b": "7",
+        "c": "9",
+        "d": "2",
+        "benar": "a",
+        "nih": "-14"
+    }
+}, {
+    "soal4": {
+        "soal": "Tentukan hasil kali \\[(r(r+3))-5r+5\\] . . . .",
+        "a": "\\[r^2-8r+5\\]",
+        "b": "\\[r^2-2r+5\\]",
+        "c": "\\[r^2-10r+5\\]",
+        "d": "\\[r^2-2r-5\\]",
+        "benar": "b",
+        "nih": "\\[r^2-2r+5\\]"
+    }
+}, {
+    "soal5": {
+        "soal": "Tentukan hasil kali \\[–p(p^3-5)\\] . . . .",
+        "a": "\\[-p^4+5p\\]",
+        "b": "\\[p^4+5p\\]",
+        "c": "\\[-p^4-p+5\\]",
+        "d": "\\[-p^4-5-p\\]",
+        "benar": "a",
+        "nih": "\\[-p^4+5p\\]"
+    }
+}, {
+    "soal6": {
+        "soal": "Hasil perkalian dari \\[(-3x-2y)^2\\]. . . .",
+        "a": "\\[9x^2+4y^2+12xy\\]",
+        "b": "\\[9x^2+4y^2-6xy\\]",
+        "c": "\\[9x^2+4y^2\\]",
+        "d": "\\[6x^2+4y^2\\]",
+        "benar": "a",
+        "nih": "\\[9x^2+4y^2+12xy\\]"
+    }
+}, {
+    "soal7": {
+        "soal": "Sebuah persegi panjang berukuran panjang \\[(2x-1)\\] meter dan lebarnya \\[(4x-5)\\] meter. Luas persegi panjang tersebut adalah . . . .\\[m^2\\]",
+        "a": "\\[8x^2-9x-6\\]",
+        "b": "\\[8x^2-14x+5\\]",
+        "c": "\\[6x^2+14x+5\\]",
+        "d": "\\[6x^2+9x-6\\]",
+        "benar": "b",
+        "nih": "\\[8x^2-14x+5\\]"
+    }
+}, {
+    "soal8": {
+        "soal": "Pak Dodi memiliki 2 kolam ikan haruan. Satu kolam dipisahkan menjadi 4 bagian kolam. Satu bagian  kira-kira berisi sebanyak \\[y\\] ikan haruan. Jadi berapa total ikan haruan yang Pak Dodi miliki, nyatakan jumlahnya dalam bentuk \\[y\\]. (Anggap setiap kolam memiliki banyak ikan haruan yang sama)",
+        "a": "\\[8y\\]",
+        "b": "\\[4y\\]",
+        "c": "\\[2y\\]",
+        "d": "\\[6y\\]",
+        "benar": "a",
+        "nih": "\\[8y\\]"
+    }
+}, {
+    "soal9": {
+        "soal": "Pak Dodi memiliki kolam ikan papuyu di belakang rumahnya. Lebar kolamnya adalah 6 meter lebih pendek daripada panjangnya. Jika panjangnya adalah \\[x\\]. Berapakah luas kolam ikan papuyu pak Dodi.",
+        "a": "\\[x-6x\\]",
+        "b": "\\[x-6\\]",
+        "c": "\\[x^2-6x\\]",
+        "d": "\\[x^2-6\\]",
+        "benar": "c",
+        "nih": "\\[x^2-6x\\]"
+    }
+}]

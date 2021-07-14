@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bentuk Aljabar</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div class="bg">
+
+
+
+        <div class="atas">
+            <div class="kiri">
+                <p>BENTUK ALJABAR</p>
+            </div>
+        </div>
+
+        <center>
+            <div class="navigasi">
+                <a href="#" class="aktif">Hasil Kuis dan Latihan</a>
+                <a href="../kontrol/kontrol.html">Kontrol Kuis dan Latihan</a>
+                <a href="../hasil_jwbnya/hasilnya.html">Jawaban Kuis dan Latihan</a>
+                <a href="../kunci/hasilnya.html">Soal Kuis dan Latihan</a>
+            </div>
+        </center>
+
+
+        <div class="konten batsatas">
+            <div class="isinya">
+                <h1><select id="kuis" name="kuis" class="mundur">
+                        <option value="kuis1/" selected="selected">KUIS_1</option>
+                        <option value="kuis2/">KUIS_2</option>
+                        <option value="kuis3/">KUIS_3</option>
+                        <option value="kuis4/">KUIS_4</option>
+                        <option value="kuis5/">KUIS_5</option>
+                        <option value="kuis6/">KUIS_6</option>
+                        <option value="kuis7/">KUIS_7</option>
+                        <option value="lth/">LATIHAN</option>
+                    </select></h1>
+                <hr>
+                <div class="bgnya">
+
+                    <label for="nama"> Sekolah :
+                        <select id="sekolah" name="sekolah" class="mundur" aria-placeholder="-PILIH SEKOLAH-">
+                            <option value="0" selected="selected">-- PILIH SEKOLAH --</option>
+                            <option value="1">SMP Negeri 2 Banjarmasin</option>
+                            <option value="2">SMP Negeri 9 Banjarmasin</option>
+                        </select>
+                    </label>
+                    <label for="nama"> Kelas :
+                        <select id="kelas" name="kelas" class="mundur" aria-placeholder="-PILIH SEKOLAH-">
+                            <option value="0" selected="selected">-- PILIH KELAS --</option>
+                            <option value="1">7A</option>
+                            <option value="2">7B</option>
+                            <option value="3">7C</option>
+                            <option value="4">7D</option>
+                            <option value="5">7E</option>
+                            <option value="6">7F</option>
+                            <option value="7">7G</option>
+                            <option value="8">7H</option>
+                            <option value="9">7I</option>
+                        </select>
+                    </label>
+                    <div class="cari" onclick="readlah()">Cari</div>
+                    <div class="cari download">Download</div>
+
+
+
+                </div>
+                <br><br>
+
+                <div>
+                    <table id='table_wrapper'>
+                        <thead class="jrkbawah">
+                            <tr>
+                                <td class="ukr1">Sekolah</td>
+                                <td class="ukr3">Kelas</td>
+                                <td class="ukr1">Nama</td>
+                                <td class="ukr3">Skor</td>
+                                <td class="ukr2">Hari</td>
+                                <td class="ukr2">Waktu</td>
+                                <td class="ukr4">Hapus</td>
+                            </tr>
+                        </thead>
+                        <tbody class="disini"></tbody>
+                    </table>
+                    <center class="ha">
+                    </center>
+
+
+
+                </div>
+
+
+
+                <div class=" clear"></div>
+            </div>
+        </div>
+
+        <center>
+            <div class="kembali blok"><a href="../../index.html">KEMBALI</a></div>
+            <!-- <div class="download kembali blok" id="btnExport">DOWNLOAD</div> -->
+
+        </center>
+
+
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-database.js"></script>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

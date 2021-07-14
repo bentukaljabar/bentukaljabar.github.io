@@ -1,0 +1,102 @@
+[{
+    "soal0": {
+        "soal": "Tuliskan bentuk aljabar dari kalimat ini menggunakan variabel \\[x\\] ‘suatu bilangan jika dikalikan 2 kemudian dikurangi 3 menghasilkan bilangan 5’. . . . ",
+        "a": "\\[2x-8\\]",
+        "b": "\\[-2x-5-3=0\\]",
+        "c": "\\[-3x-2=5\\]",
+        "d": "\\[2x-3=5\\]",
+        "benar": "d",
+        "nih": "\\[2x-3=5\\]"
+    }
+}, {
+    "soal1": {
+        "soal": "Perhatikan bentuk aljabar berikut \\[z+6x+6y+2x\\]. Berapa banyaknya suku dan suku sejenis pada bentuk aljabar tersebut ?",
+        "a": "4 suku, dan tidak ada suku sejenis",
+        "b": "4 suku, dan 2 suku sejenis",
+        "c": "4 suku, dan 1 suku sejenis",
+        "d": "3 suku, dan 1 suku sejenis",
+        "benar": "c",
+        "nih": "4 suku, dan 1 suku sejenis"
+    }
+
+}, {
+    "soal2": {
+        "soal": "Tuliskan bentuk aljabar dari kalimat ini menggunakan variable \\[y\\], 'Kuadrat Suatu bilangan jika ditambah 2 menghasilkan 27'. . . .",
+        "a": "\\[27y=2\\]",
+        "b": "\\[y^2+2=27\\]",
+        "c": "\\[y+2^2=27\\]",
+        "d": "\\[2x+2=27\\]",
+        "benar": "b",
+        "nih": "\\[y^2+2=27\\]"
+    }
+}, {
+    "soal3": {
+        "soal": "Tentukan konstanta dari bentuk aljabar berikut : \\[2y^2+y-9\\] . . . .",
+        "a": "\\[2\\]",
+        "b": "\\[-9\\]",
+        "c": "\\[9\\]",
+        "d": "\\[1\\]",
+        "benar": "b",
+        "nih": "\\[-9\\]"
+    }
+}, {
+    "soal4": {
+        "soal": "Tentukan koefisien dari varibel \\[x^2\\] pada  bentuk aljabar berikut : \\[2x^2-4xy+x+9\\] . . . .",
+        "a": "\\[2\\]",
+        "b": "\\[1\\]",
+        "c": "\\[4\\]",
+        "d": "\\[9\\]",
+        "benar": "a",
+        "nih": "\\[2\\]"
+    }
+}, {
+    "soal5": {
+        "soal": "Tentukan nilai dari \\[4+8x+2x^2\\], jika nilai \\[x\\] adalah 5 . . . .",
+        "a": "94",
+        "b": "14",
+        "c": "54",
+        "d": "44",
+        "benar": "a",
+        "nih": "94"
+    }
+}, {
+    "soal6": {
+        "soal": "Tentukan konstanta dari bentuk aljabar berikut : \\[x^2+3x+7\\] . . . . ",
+        "a": "\\[2\\]",
+        "b": "\\[-9\\]",
+        "c": "\\[7\\]",
+        "d": "\\[1\\]",
+        "benar": "c",
+        "nih": "\\[7\\]"
+    }
+}, {
+    "soal7": {
+        "soal": "Tentukan nilai dari 8a+5, jika nilai a adalah 11 . . . .",
+        "a": "19",
+        "b": "93",
+        "c": "23",
+        "d": "24",
+        "benar": "b",
+        "nih": "93"
+    }
+}, {
+    "soal8": {
+        "soal": "Harga 4 Kg ikan haruan dan 2 Kg ikan papuyu adalah Rp. 450.000. Jika harga 1 Kg ikan haruan adalah 2 kali harga  ikan papuyu, tentukan bentuk aljabar dari pembelian ikan haruan dan ikan papuyu. . . .",
+        "a": "\\[8x+2x=450000\\]",
+        "b": "\\[4x+2x=450000\\]",
+        "c": "\\[4x+4x=450000\\]",
+        "d": "\\[8x+8x=450000\\]",
+        "benar": "a",
+        "nih": "\\[8x+2x=450000\\]"
+    }
+}, {
+    "soal9": {
+        "soal": "Ibu Doni membeli 8 buah kasturi, dan 2 buah kuini. Kemudian  Doni memakan  2 buah kasturi tersebut. Jika harga buah kasturi dan buah kuini secara berurutan adalah \\[a\\] rupiah dan \\[b\\] rupiah, maka harga barang Ibu Doni yang tersisa tersebut dalam bentuk aljabar adalah . . . . ",
+        "a": "\\[6a+2b\\]",
+        "b": "\\[4a+2b\\]",
+        "c": "\\[6a+4b\\]",
+        "d": "\\[8a+4b\\]",
+        "benar": "a",
+        "nih": "\\[6a+2b\\]"
+    }
+}]

@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../../img/bgpasr.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.bg {
+    height: 1800px;
+    background-color: rgba(252, 252, 252, 0.658);
+
+}
+
+h1 {
+    font-size: 18px !important;
+}
+
+.atas {
+    margin: 20px auto;
+    width: 100%;
+    background-color: rgba(173, 216, 230, 0.274);
+    box-shadow: 0px 3px 8px 1px black;
+    z-index: 2;
+    display: inline-block;
+
+}
+
+.kiri {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.kiri p {
+    text-align: left;
+    font-size: 8vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.konten {
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    border: 5px solid rgb(1, 59, 78);
+    margin-left: 5%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.isinya {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.kembali {
+    display: inline;
+    padding: 10px;
+    font-size: 18px;
+    background-color: lightblue;
+    border: 3px solid rgb(1, 59, 78);
+    width: 90px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.kembali:hover {
+    background-color: rgb(1, 59, 78);
+}
+
+.batsatas {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+hr {
+    background-color: rgb(1, 59, 78);
+    height: 3px;
+    margin-bottom: 20px;
+}
+
+/* toggle --------------------------------------------------------------------------------------------------*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(24px);
+    -ms-transform: translateX(24px);
+    transform: translateX(24px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.nah {
+    background-color: lightblue;
+}
+
+/* ss---------------------------------------------------------- */
+
+.kirinih {
+    float: right
+}
+
+.clear {
+    clear: both;
+}
+
+.baris {
+    float: left;
+    font-size: 20px;
+}
+
+.bgkontrol {
+    width: 100%;
+    display: inline-block;
+}
+
+
+label {
+    font-size: 25px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.mundur {
+    font-size: 20px !important;
+    height: 25px;
+    padding: 2px 5px;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+}
+
+.cari {
+    display: inline-block;
+    padding: 2px 20px;
+    background-color: rgb(14, 118, 153);
+    position: relative;
+    top: -5px;
+    border-radius: 5px;
+    width: 90px;
+    margin-top: 10px;
+}
+
+.cah_semua {
+    display: inline-block;
+    padding: 2px 20px;
+    background-color: rgb(14, 118, 153);
+    position: relative;
+    top: -5px;
+    border-radius: 5px;
+    width: 350px;
+    margin-top: 50px;
+}
+
+.cah_semua:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.cari:hover {
+    cursor: pointer;
+}
+
+.bgnya {
+    background-color: lightgray;
+    padding: 10px 5px 5px 5px;
+}
+
+table,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.benar {
+    background-color: lightgreen;
+
+}
+
+.salah {
+    background-color: lightcoral;
+}
+
+.ukr0 {
+    width: 900px;
+}
+
+.ukr1 {
+    width: 300px;
+}
+
+.ukr2 {
+    width: 200px;
+}
+
+.ukr3 {
+    width: 90px;
+}
+
+.ukr4 {
+    width: 50px;
+    padding: 5px;
+}
+
+.hps {
+
+    background-color: rgb(14, 118, 153);
+
+}
+
+.hps:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.jrkbawah {
+    margin-bottom: 2px;
+    background-color: lightblue;
+}
+
+.navigasi {
+    padding: 10px 20px;
+    font-size: 2vw;
+
+}
+
+.navigasi a {
+    background-color: lightblue;
+    padding: 10px;
+    border: 2px solid rgb(1, 59, 78);
+
+}
+
+.navigasi a:hover {
+    cursor: pointer;
+    background-color: rgb(1, 59, 78);
+}
+
+.aktif {
+    background-color: rgb(1, 59, 78) !important;
+}
+
+/* ------------------------------------------------------------- */
+
+@media (min-width : 1000px) {
+    .atas {
+        margin-top: -10px;
+    }
+
+    .kiri p {
+        font-size: 5vw !important;
+    }
+
+    .bg {
+        height: 652px !important;
+        background-color: rgba(252, 252, 252, 0.658);
+
+    }
+
+    h1 {
+        font-size: 28px !important;
+    }
+
+    .info {
+        font-size: 20px !important;
+    }
+
+    .kembali {
+        margin: 0px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+
+    /* toggle --------------------------------------------------------------------------------------------------*/
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+    }
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    input:checked+.slider {
+        background-color: #2196F3;
+    }
+
+    input:focus+.slider {
+        box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked+.slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+        border-radius: 34px;
+    }
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+
+
+
+}

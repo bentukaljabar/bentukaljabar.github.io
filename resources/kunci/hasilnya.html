@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bentuk Aljabar</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="content.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div class="bg">
+
+
+
+        <div class="atas">
+            <div class="kiri">
+                <p>BENTUK ALJABAR</p>
+            </div>
+        </div>
+
+        <center>
+            <div class="navigasi">
+                <a href="../hasilnya/hasilnya.html">Hasil Kuis dan Latihan</a>
+                <a href="../kontrol/kontrol.html">Kontrol Kuis dan Latihan</a>
+                <a href="../hasil_jwbnya/hasilnya.html">Jawaban Kuis dan Latihan</a>
+                <a href="#" class="aktif">Soal Kuis dan Latihan</a>
+            </div>
+        </center>
+
+
+        <div class="konten batsatas">
+            <div class="isinya">
+                <div class="kpl">
+                    <center>
+                        <h1><select id="kuis" name="kuis" class="mundur">
+                                <option value="data1.json" selected="selected">KUIS_1</option>
+                                <option value="data2.json">KUIS_2</option>
+                                <option value="data3.json">KUIS_3</option>
+                                <option value="data4.json">KUIS_4</option>
+                                <option value="data5.json">KUIS_5</option>
+                                <option value="data6.json">KUIS_6</option>
+                                <option value="data7.json">KUIS_7</option>
+                                <option value="data8.json">EVALUASI</option>
+                            </select></h1>
+                        <div class="cari" onclick="readlah()">Cari</div>
+                    </center>
+                    <hr>
+                </div>
+
+                <div class="bgnya">
+
+                    <div id="kiri">
+
+
+
+                    </div>
+                    <div class=" clear"></div>
+                </div>
+            </div>
+        </div>
+        <center>
+            <div class="kembali blok"><a href="../../index.html">KEMBALI</a></div>
+            <!-- <div class="download kembali blok" id="btnExport">DOWNLOAD</div> -->
+
+        </center>
+
+
+
+
+        <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-database.js"></script>
+
+        <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

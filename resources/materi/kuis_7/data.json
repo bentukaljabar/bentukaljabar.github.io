@@ -1,0 +1,102 @@
+[{
+    "soal0": {
+        "soal": "Operasikan pecahan bentuk aljabar berikut \\[ \\frac{5a}{3b} \\times \\frac{6b}{7c}\\] . . . .",
+        "a": "\\[ \\frac{10a}{7c} \\]",
+        "b": "\\[ \\frac{11a}{10c} \\]",
+        "c": "\\[ \\frac{35a}{18c} \\]",
+        "d": "\\[ \\frac{21a}{30c} \\]",
+        "benar": "a",
+        "nih": "\\[ \\frac{10a}{7c} \\]"
+    }
+}, {
+    "soal1": {
+        "soal": "Tentukan hasil pembagian pecahan bentuk aljabar berikut \\[ \\frac{2xy^2}{z} \\div \\frac{5yz}{4x} \\]. . .",
+        "a": "\\[ \\frac{8xy^2}{4yz} \\]",
+        "b": "\\[ \\frac{6x^2 y^2}{5yz^2} \\]",
+        "c": "\\[ \\frac{5y^2}{yz^2} \\]",
+        "d": "\\[ \\frac{8x^2y}{5z^2} \\]",
+        "benar": "d",
+        "nih": "\\[ \\frac{8x^2y}{5z^2} \\]"
+    }
+
+}, {
+    "soal2": {
+        "soal": "Tentukan hasil perkalian pecahan bentuk aljabar berikut \\[ \\frac{5y^2}{z} \\times  \\frac{xy}{4x^2} \\]  . . .",
+        "a": "\\[ \\frac{xy^3}{x^2z} \\]",
+        "b": "\\[ \\frac{5x^2y^3}{4x^2z} \\]",
+        "c": "\\[ \\frac{5y^3}{4xz} \\]",
+        "d": "\\[ \\frac{xy^3}{x^2z^2} \\]",
+        "benar": "c",
+        "nih": "\\[ \\frac{5y^3}{4xz} \\]"
+    }
+}, {
+    "soal3": {
+        "soal": "Operasikan pecahan bentuk aljabar berikut \\[ \\frac{7p}{3r^2s^3} \\div \\frac{5ps^2}{9rs^2}\\] . . . ",
+        "a": "\\[ \\frac{21}{5rs^3} \\]",
+        "b": "\\[ \\frac{35rs}{27r^2s^5} \\]",
+        "c": "\\[ \\frac{63ps^3}{15pr^2s^5} \\]",
+        "d": "\\[ \\frac{35pr}{27pr^2s^3} \\]",
+        "benar": "a",
+        "nih": "\\[ \\frac{21}{5rs^3} \\]"
+    }
+}, {
+    "soal4": {
+        "soal": "Operasikan pecahan bentuk aljabar berikut \\[ \\frac{z^2}{4x} \\times \\frac{2x}{5y} \\div \\frac{3z^2}{7xy} \\] . . . . ",
+        "a": "\\[ \\frac{7x}{30} \\]",
+        "b": "\\[ \\frac{6}{20x} \\]",
+        "c": "\\[ \\frac{6x^2}{20y} \\]",
+        "d": "\\[ \\frac{14}{35x}\\]",
+        "benar": "a",
+        "nih": "\\[  \\frac{7x}{30} \\]"
+    }
+}, {
+    "soal5": {
+        "soal": "Tentukan hasil pembagian pecahan bentuk aljabar berikut \\[ \\frac{2x}{2x+5} \\div \\frac{5y}{3y+7} \\] . . . .",
+        "a": "\\[ \\frac{10xy + 2x}{6xy + 5y} \\]",
+        "b": "\\[ \\frac{6xy + 2x}{10xy + 3y} \\]",
+        "c": "\\[ \\frac{6xy + 14x}{10xy + 25y}\\]",
+        "d": "\\[ \\frac{10xy + 5}{6xy + 7}\\]",
+        "benar": "c",
+        "nih": "\\[ \\frac{6xy + 14x}{10xy + 25y} \\]"
+    }
+}, {
+    "soal6": {
+        "soal": "Operasikan pecahan bentuk aljabar berikut \\[ \\frac{ab^3}{c^2} \\times \\frac{b}{ac} \\] . . . .",
+        "a": "\\[ \\frac{ab^2}{ac} \\]",
+        "b": "\\[ \\frac{ab^4}{ac^2} \\]",
+        "c": "\\[ \\frac{ab^3}{ac^3}\\]",
+        "d": "\\[ \\frac{b^4}{c^3}\\]",
+        "benar": "d",
+        "nih": "\\[ \\frac{b^4}{c^3}\\]"
+    }
+}, {
+    "soal7": {
+        "soal": "Tentukan hasil pembagian pecahan bentuk aljabar berikut \\[ \\frac{9ab}{4c} \\div \\frac{9b}{4ac} \\] . . . .",
+        "a": "\\[ a^2 \\]",
+        "b": "\\[ a^2 b \\]",
+        "c": "\\[ a^2 bc \\]",
+        "d": "\\[ ab\\]",
+        "benar": "a",
+        "nih": "\\[ a^2 \\]"
+    }
+}, {
+    "soal8": {
+        "soal": "Tentukan hasil operasi berikut \\[ \\frac{2a^2}{3a} \\div \\frac{2a}{6b}  \\times \\frac{2c^2}{7ab} \\] . . . .",
+        "a": "\\[ \\frac{4c^2}{7a} \\]",
+        "b": "\\[ \\frac{2c^2}{7ab} \\]",
+        "c": "\\[ \\frac{2c^2}{7ab} \\]",
+        "d": "\\[ \\frac{4a^2}{7ab} \\]",
+        "benar": "a",
+        "nih": "\\[ \\frac{4c^2}{7a} \\]"
+    }
+}, {
+    "soal9": {
+        "soal": "Tentukan nilai dari hasil pecahana bentuk aljabar \\[ (\\frac{3x}{3y+2}+1) \\times \\frac{2x}{3x} \\] . . . .",
+        "a": "\\[ \\frac{6x^2+1}{9xy+6x}\\]",
+        "b": "\\[ \\frac{4x+6xy}{9xy+6x}\\]",
+        "c": "\\[ \\frac{6x^2+4x+y}{9xy}\\]",
+        "d": "\\[ \\frac{6x+6y+4}{9y+6}\\]",
+        "benar": "d",
+        "nih": "\\[ \\frac{6x+6y+4}{9y+6} \\]"
+    }
+}]

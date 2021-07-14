@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVALUASI</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="img/sign-out-alt-solid.svg" type="image/png" sizes="16x16"> 
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    
+    <!-- prompt -->
+    <link rel="stylesheet" href="css/popupmodal.css">
+
+    <!-- awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/1aaaf3752e.js" crossorigin="anonymous"></script>
+
+    
+    <!-- css custome -->
+    <link rel="stylesheet" href="css/style_awaluser.css">
+</head>
+<body>
+
+    <div class="bg">
+        <!-- kiri gambar -->
+        <div class="data_gambar">
+            <center>
+                <img src="img/dekstop.gif" alt="" class="img_bg">
+            </center>
+        </div>
+        <!-- kanan data diri -->
+        <div class="data_diri">
+                <table>
+                <tr>
+                    <td>Nama</td>
+                    <td id="nama_user"></td>
+                </tr>
+                <tr>
+                    <td>Sekolah</td>
+                    <td id="sekolah_user"></td>
+                </tr>
+                <tr>
+                    <td>Kelas</td>
+                    <td id="kelas_user"></td>
+                </tr>
+                <tr><td colspan="2">------------------------------------------------------------</td></tr>
+                <tr>
+                    <td>Token</td>
+                    <td><input type="text" id="token" maxlength="6"></td>
+                </tr>
+                <tr><td colspan="2">------------------------------------------------------------</td></tr>
+                <tr>
+                    <td colspan="2">
+                        <button class="masuk" id="mulai">Mulai</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+
+
+
+
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
+
+    <!-- prompt -->
+    <script src="js/polyfill.js"></script>
+    <script src="js/popupmodal-min.js"></script>
+
+    <!-- js costume -->
+    <script src="js/firebaseKoneksi.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

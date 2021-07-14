@@ -1,0 +1,158 @@
+/* --------------------------AWAL HP CSS-------------------------------- */
+.bgnya_kali {
+    position: relative;
+    height: 48px;
+}
+
+.kali mjx-container {
+    font-size: 15px !important;
+    text-align: center;
+}
+
+.grs1 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    position: absolute;
+    width: 5vw;
+    height: 6px;
+    text-align: center;
+    margin-left: 19px;
+}
+
+.grs2 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    position: absolute;
+    width: 14vw;
+    height: 20px;
+    text-align: center;
+    margin-left: 19px;
+    text-align: right !important;
+    padding-right: 5px;
+}
+
+.a {
+    width: 10.5vw;
+    height: 16px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.b {
+    width: 20vw;
+}
+
+.c {
+    margin-left: 35vw;
+    width: 9vw;
+    height: 14px;
+    line-height: 10px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.d {
+    margin-left: 35vw;
+    width: 17vw;
+    height: 18px;
+    line-height: 10px;
+}
+
+.bgbg {
+    height: 50px;
+}
+
+.bgbgpil {
+    margin-left: 15px;
+}
+
+
+/* --------------------------AKHIR HP CSS-------------------------------- */
+
+
+
+
+
+
+
+
+
+
+/* --------------------------AWAL WINDOW CSS-------------------------------- */
+@media (min-width : 992px) {
+
+
+    /* --------------------------TENGAH WINDOW CSS-------------------------------- */
+
+
+    .bgnya_kali {
+        position: relative;
+        height: 66px;
+    }
+
+    .kali mjx-container {
+        font-size: 1.5vw !important;
+        text-align: center;
+    }
+
+    .grs1 {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        display: inline-block;
+        position: absolute;
+        width: 2vw;
+        height: 10px;
+        text-align: center;
+        margin-left: 2vw;
+    }
+
+    .grs2 {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        display: inline-block;
+        position: absolute;
+        width: 5vw;
+        height: 30px;
+        text-align: center;
+        margin-left: 2vw;
+        text-align: right !important;
+        padding-right: 5px;
+    }
+
+    .a {
+        margin-left: 2vw;
+        width: 4.2vw;
+        height: 25px;
+        text-align: right;
+        padding-right: 6px;
+    }
+
+    .b {
+        margin-left: 2vw;
+        width: 7.6vw;
+    }
+
+    .c {
+        margin-left: 13.5vw;
+        width: 3.3vw;
+        text-align: right;
+        padding-right: 5px;
+        height: 25px;
+        line-height: 20px;
+    }
+
+    .d {
+        margin-left: 13.5vw;
+        width: 6.5vw;
+        line-height: 20px;
+    }
+
+    /* --------------------------AKHIR WINDOW CSS-------------------------------- */
+
+}

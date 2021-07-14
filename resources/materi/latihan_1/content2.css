@@ -1,0 +1,692 @@
+.masuk {
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+mjx-container {
+    display: inline-block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bg_nav {
+    width: 99%;
+    background-color: #E47297;
+}
+
+.bg_full {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+
+}
+
+.bg_soal {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #FFBAD2;
+
+}
+
+.soal_nav {
+    width: 10%;
+    height: 20%;
+    padding: 2px;
+    text-align: center;
+    border: 2px solid #F20056;
+    border-radius: 5px;
+    float: left;
+    margin-left: 8.5%;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.soal_nav:hover {
+    cursor: pointer;
+    background-color: #FFBAD2;
+}
+
+.bg_soal span {
+    padding: 2px;
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.belum {
+    background-color: white;
+}
+
+.sudah {
+    background-color: lightgreen;
+}
+
+.ragu {
+    background-color: rgb(255, 255, 52) !important;
+}
+
+.fontbesar {
+    font-size: 23px;
+}
+
+.fontsedang {
+    font-size: 20px;
+}
+
+.ket {
+    width: 100%;
+    margin-left: 8.5%;
+    margin-top: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.selesai {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    background-color: #E47297;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10px;
+    line-height: 30px;
+    margin-left: 10%;
+}
+
+.selesai:hover {
+    background-color: rgb(40, 119, 143);
+}
+
+.hasil {
+    background-color: #FFBAD2;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.skor {
+    font-size: 50px;
+    float: left;
+    border: 3px solid #F20056;
+    padding: 15px 15px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.bnr_slh {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.bnr_slh span {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.hasil a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #E47297;
+    border: 2px solid #F20056;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+.hasil a:hover {
+    background-color: #F20056;
+}
+
+.jrk {
+    margin-top: 12px;
+}
+
+
+.bg_pertanyaan {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.no {
+    background-color: #E47297;
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+    border: 2px solid #F20056;
+}
+
+.no p {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.inti_pertanyaan {
+    border-left: 2px solid #F20056;
+    border-bottom: 2px solid #F20056;
+    border-right: 2px solid #F20056;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.pertanyaannya {
+    border-left: 6px solid #E47297;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.batas {
+    margin-top: 20px;
+    border-bottom: 1px solid #E47297;
+}
+
+/* radio button */
+
+.bg_pilihan,
+.checkbox {
+    position: relative;
+    margin: 20px 0;
+    display: block;
+    font-size: 18px;
+}
+
+.bg_pilihan :hover,
+.checkbox:hover {
+    cursor: pointer;
+}
+
+
+.checkbox {
+    display: block;
+}
+
+.bg_pilihan input,
+.checkbox input {
+    position: absolute;
+    margin: 5px;
+    padding: 0;
+    visibility: hidden;
+}
+
+.bg_pilihan .textnya,
+.checkbox .textnya {
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+
+.nav_pilihan,
+.fake-checkbox {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #F20056;
+    background-color: #E47297;
+}
+
+.nav_pilihan:after,
+.fake-checkbox:after {
+    content: "";
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    background: #F20056;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.nav_pilihan {
+    border-radius: 50%;
+}
+
+.nav_pilihan:after {
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked+span .nav_pilihan:after {
+    display: block;
+}
+
+span {
+    display: inline-block;
+}
+
+
+/* akhir button */
+
+
+.nav_sebelum {
+    background-color: #FFBAD2;
+    width: 24%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid #F20056;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 3%;
+}
+
+.nav_sebelum:hover {
+    background-color: #F20056;
+}
+
+.nav_sebelum p {
+    font-size: 11px;
+}
+
+.nav_selanjut {
+    background-color: #FFBAD2;
+    width: 24%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid #F20056;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 3%;
+
+}
+
+.nav_selanjut:hover {
+    background-color: #F20056;
+}
+
+.nav_selanjut p {
+    font-size: 11px;
+}
+
+.nav_ragu {
+    background-color: #FFBAD2;
+    width: 24%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid #F20056;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 3%;
+
+}
+
+.nav_ragu {
+    font-size: 11px;
+}
+
+.nav_ragu:hover {
+    background-color: #F20056;
+}
+
+.hilang {
+    display: none;
+}
+
+.disable {
+    background-color: rgb(133, 133, 133) !important;
+    color: rgb(37, 37, 37);
+    cursor: default !important;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.tt_salah {
+    border: 2px solid red;
+}
+
+.petunjuk {
+    display: inline-block;
+    background-color: #E47297;
+    width: 80%;
+    padding: 3px 10px;
+    border-radius: 0px 10px 10px 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 3px;
+    border: 2px solid #F20056;
+    height: 30px;
+}
+
+.petunjuk:hover {
+    cursor: pointer;
+}
+
+.isinya {
+    padding: 3px 10px;
+    border: 2px solid #F20056;
+    margin-left: 3px;
+    margin-top: -5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-right: 2px;
+}
+
+
+ol {
+    margin-left: 20px;
+}
+
+.data {
+    min-height: 670px;
+    height: 670x;
+    background-color: white;
+}
+
+.dataaa {
+    min-height: 670px;
+    height: 670px;
+    background-color: white;
+}
+
+.data_diri {
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 23px;
+    box-sizing: border-box;
+    border: 2px solid #F20056;
+    padding-top: 10px 0px;
+    height: 670px !important;
+}
+
+label {
+    width: 300px;
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.mundur {
+    display: block;
+    width: 292px;
+    height: 30px;
+    padding: 2px 5px;
+    font-size: 18px;
+}
+
+.aaa {
+    width: 292px !important;
+}
+
+.maju {
+    display: block;
+    width: 280px;
+    height: 30px;
+    padding: 2px 5px;
+    font-size: 18px;
+}
+
+.lanjut {
+    display: inline-block;
+    width: 150px;
+    padding: 5px 5px;
+    background-color: #FFBAD2;
+    border: 2px solid #F20056;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 27%;
+    font-size: 19px;
+}
+
+.lanjut:hover {
+    background-color: #F20056;
+    cursor: pointer;
+}
+
+.t_hasil {
+    margin-left: 5%;
+    border: 4px solid #F20056;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 312px;
+    width: 312px;
+
+}
+
+td {
+    padding: 5px 0px;
+}
+
+.ket_hasil {
+    width: 118px;
+    font-size: 15px;
+    padding: 5px !important;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+@media (min-width : 992px) {
+    .t_hasil {
+        margin-left: 23%;
+        border: 5px solid #F20056;
+        border-radius: 5px;
+        padding: 20px;
+        max-width: 530px;
+        width: 530px;
+    }
+
+    td {
+        padding: 10px 0px;
+    }
+
+    .ket_hasil {
+        width: 150px;
+        font-size: 1.4vw !important;
+    }
+
+    .skornya {
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 1.6vw;
+        box-sizing: border-box;
+        border: 2px solid #F20056;
+        padding-top: 10px 0px;
+        min-height: auto;
+        padding-bottom: 30px;
+    }
+
+    ol {
+        margin-left: 30px;
+    }
+
+    .petunjuk {
+        width: 50%;
+        font-size: 1.6vw;
+    }
+
+    .isinya {
+        font-size: 1.6vw;
+        margin-right: 5px;
+    }
+
+    .data_diri {
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 1.6vw;
+        box-sizing: border-box;
+        border: 2px solid #F20056;
+        padding-top: 10px 0px;
+        height: 77vh !important;
+    }
+
+    label {
+        width: 500px;
+        display: inline-block;
+        margin-left: 26%;
+        font-size: 1.6vw;
+        margin-top: 10px;
+
+    }
+
+    .mundur {
+        margin-left: 10px !important;
+        display: inline-block;
+        width: 323px !important;
+    }
+
+    .maju {
+        display: inline-block;
+        width: 300px;
+        padding: 5px 5px;
+    }
+
+    .aaa {
+        width: 323px !important;
+        margin-left: 32px !important;
+    }
+
+    #nama,
+    #sekolah,
+    #kelas {
+        width: 300px;
+        font-size: 1.6vw;
+        margin-left: 30px;
+        padding: 0px 10px;
+    }
+
+    .lanjut {
+        display: inline-block;
+        width: 200px;
+        padding: 5px 5px;
+        background-color: #FFBAD2;
+        border: 2px solid #F20056;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-left: 40%;
+        font-size: 1.6vw !important;
+    }
+
+    .lanjut:hover {
+        background-color: #F20056;
+        cursor: pointer;
+    }
+
+
+    .masuk {
+        font-size: 1.6vw;
+    }
+
+    .soal_nav {
+        width: 14%;
+        height: 18%;
+        margin-left: 8.5%;
+    }
+
+    .hasil {
+        padding: 10px;
+        margin-top: 8px;
+    }
+
+    .skor {
+        font-size: 1.8vw;
+        padding: 15px 15px;
+        margin-left: 15px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .bnr_slh {
+        font-size: 1.4vw;
+        margin-top: 2px;
+    }
+
+
+    .jrk {
+        margin-top: 12px;
+        margin-bottom: 10px;
+    }
+
+    .pertanyaannya {
+        padding-left: 15px;
+        font-size: 1.6vw;
+    }
+
+    .no p {
+        margin-left: 1.6vw !important;
+    }
+
+    .nav_sebelum {
+        width: 26%;
+    }
+
+    .nav_sebelum p {
+        font-size: 1.6vw;
+    }
+
+    .nav_selanjut {
+        width: 26%;
+    }
+
+    .nav_selanjut p {
+        font-size: 1.6vw;
+    }
+
+    .nav_ragu {
+        width: 26%;
+    }
+
+    .nav_ragu p {
+        font-size: 1.6vw;
+    }
+
+    .bg_pilihan,
+    .checkbox {
+        font-size: 1.6vw;
+    }
+
+    .dataaa {
+        min-height: auto;
+        background-color: white;
+        height: auto;
+    }
+
+    .data {
+        min-height: auto;
+        height: auto;
+        background-color: white;
+    }
+
+    .bg_soal span {
+        padding: 2px;
+        display: inline-block;
+        width: 60px;
+        margin-bottom: 5px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .fontsedang {
+        font-size: 1.3vw;
+    }
+}

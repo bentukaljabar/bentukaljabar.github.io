@@ -1,0 +1,202 @@
+[{
+    "soal0": {
+        "soal": "Bentuk sederhana dari bentuk aljabar berikut adalah \\[2x^2+3x-2x+6x+12+5x^2\\] . . . .",
+        "a": "\\[ 7x^2+7x+12\\]",
+        "b": "\\[ 7x^2+11x+12 \\]",
+        "c": "\\[ 7x^2+x-12 \\]",
+        "d": "\\[ 7x^2+7x-12 \\]",
+        "benar": "a",
+        "nih": "\\[ 7x^2+7x+12 \\]"
+    }
+}, {
+    "soal1": {
+        "soal": "Suku sejenis dari bentuk aljabar berikut ini adalah \\[2x^2+3x-2x+5x^2\\] . . . .",
+        "a": "\\[ 2x^2\\] dengan \\[3x \\]",
+        "b": "\\[ 2x^2\\] dengan \\[-2x \\]",
+        "c": "\\[ 5x^2\\] dengan \\[2x^2 \\]",
+        "d": "\\[ 5x^2\\] dengan \\[3x \\]",
+        "benar": "c",
+        "nih": "\\[ 5x^2\\] dengan \\[2x^2 \\]"
+    }
+
+}, {
+    "soal2": {
+        "soal": "Jumlah 5x+4y-6 dan 2x+7y+9 adalah . . . .",
+        "a": "\\[ 5x+11y+3 \\]",
+        "b": "\\[ 7x+7y+3 \\]",
+        "c": "\\[ 7x+11y+3 \\]",
+        "d": "\\[ 5x+11y+3 \\]",
+        "benar": "c",
+        "nih": "\\[ 7x+11y+3 \\]"
+    }
+}, {
+    "soal3": {
+        "soal": "Kurangkan \\[6a-5b+8\\] dari \\[2a+7b+3\\], maka hasilnya adalah . . . .",
+        "a": "\\[ -4a+12b-5 \\]",
+        "b": "\\[ 8a+2b+3 \\]",
+        "c": "\\[ 4a+2b+5 \\]",
+        "d": "\\[ 8a-12b+3 \\]",
+        "benar": "a",
+        "nih": "\\[ -4a+12b-5 \\]"
+    }
+}, {
+    "soal4": {
+        "soal": "Ibu pergi kepasar membeli buah kasturi 2 Kg dan buah kuini 1 Kg. Pulang kerja ayah juga membeli buah kuini 3 Kg. Tentukan total uang yang mereka keluarkan jika harga 1 Kg kuini adalah \\[r\\] dan harga 1 Kg kasturi adalah \\[s\\].",
+        "a": "\\[ 2s+4r \\] rupiah",
+        "b": "\\[ 1s+2r \\] rupiah",
+        "c": "\\[ 2s+r \\] rupiah",
+        "d": "\\[ s+r \\] rupiah",
+        "benar": "a",
+        "nih": "\\[ 2s+4r \\] rupiah"
+    }
+}, {
+    "soal5": {
+        "soal": "Bentuk sederhana dari perkalian \\[(2x+3)(x-5)\\] adalah . . . .",
+        "a": "\\[ 2x^2+13x-15 \\]",
+        "b": "\\[ 2x^2-13x-15 \\]",
+        "c": "\\[ 2x^2-7x-15\\]",
+        "d": "\\[ 2x^2+7x-15\\]",
+        "benar": "c",
+        "nih": "\\[ 2x^2-7x-15 \\]"
+    }
+}, {
+    "soal6": {
+        "soal": "Hasil dari perkalian \\[(r+5)^2 \\]adalah . . . .",
+        "a": "\\[ r^2+5r+25 \\]",
+        "b": "\\[ r^2+25r+25 \\]",
+        "c": "\\[ r^2+10r+25\\]",
+        "d": "\\[ r^2-5r+9\\]",
+        "benar": "c",
+        "nih": "\\[ r^2+10r+25\\]"
+    }
+}, {
+    "soal7": {
+        "soal": "Hasil dari perkalian \\[(x+2)^3 \\] adalah . . . .",
+        "a": "\\[ x^3+6x^2+12x+8 \\]",
+        "b": "\\[ x^3+4x^2+8x+6 \\]",
+        "c": "\\[ x^3+2x^2+12x+6 \\]",
+        "d": "\\[ x^3+6x^2+8x+8\\]",
+        "benar": "a",
+        "nih": "\\[ x^3+6x^2+12x+8 \\]"
+    }
+}, {
+    "soal8": {
+        "soal": "Pak Dodi memiliki kolam ikan papuyu di belakang rumahnya. Lebar kolamnya adalah 6 meter lebih pendek daripada panjangnya. Jika panjangnya adalah \\[x\\]. Berapakah luas kolam ikan papuyu pak Dodi.",
+        "a": "\\[ x^2-6x \\]",
+        "b": "\\[ x-6 \\]",
+        "c": "\\[ x-6x \\]",
+        "d": "\\[ x^2+6x \\]",
+        "benar": "a",
+        "nih": "\\[ x^2-6x \\]"
+    }
+}, {
+    "soal9": {
+        "soal": "Pak Dodi memiliki 2 kolam ikan haruan. Satu kolam dipisahkan menjadi 4 bagian kolam. Satu bagian  kira-kira berisi sebanyak \\[y\\] ikan haruan. Jadi berapa total ikan haruan yang Pak Dodi miliki, nyatakan jumlahnya dalam bentuk \\[y\\]. (Anggap setiap kolam memiliki banyak ikan haruan yang sama)",
+        "a": "\\[ 8y\\]",
+        "b": "\\[ 4y\\]",
+        "c": "\\[ 2y\\]",
+        "d": "\\[ 6y\\]",
+        "benar": "a",
+        "nih": "\\[ 8y \\]"
+    }
+}, {
+    "soal10": {
+        "soal": "Bentuk sederhana dari \\[ (5a^4×4a^5) \\div 4a^3 \\] adalah . . . .",
+        "a": "\\[ 5a^4\\]",
+        "b": "\\[ 4a^5\\]",
+        "c": "\\[ 5a^6\\]",
+        "d": "\\[ 4a^3\\]",
+        "benar": "c",
+        "nih": "\\[ 5a^6 \\]"
+    }
+}, {
+    "soal11": {
+        "soal": "Tentukan hasil pembagian \\[(50x^2 y^3 \\div 5x) \\div 2y^2\\]  . . . .",
+        "a": "\\[ 5xy^2\\]",
+        "b": "\\[ 5x^2y^2\\]",
+        "c": "\\[ 5x^2y\\]",
+        "d": "\\[ 5xy\\]",
+        "benar": "d",
+        "nih": "\\[ 5xy \\]"
+    }
+}, {
+    "soal12": {
+        "soal": "Hasil bagi \\[(4x^2  + 16x+15)\\] dengan\\[(2x+5)\\] adalah . . . .",
+        "a": "\\[ 2x+15\\]",
+        "b": "\\[ 2x+7\\]",
+        "c": "\\[ 2x+3\\]",
+        "d": "\\[ 2x+5\\]",
+        "benar": "c",
+        "nih": "\\[ 2x+3\\]"
+    }
+}, {
+    "soal13": {
+        "soal": "Suatu luas persegi panjang adalah \\[(3x^2+4x-15)\\], jika diketahui panjang dari persegi itu adalah \\[(x+3)\\] maka tentukan lebarnya . . . .",
+        "a": "\\[ x-5\\]",
+        "b": "\\[ 3x-5\\]",
+        "c": "\\[ x + 5\\]",
+        "d": "\\[ 3x + 5\\]",
+        "benar": "b",
+        "nih": "\\[ 3x-5 \\]"
+    }
+}, {
+    "soal14": {
+        "soal": "Luas kolam ikan haruan Pak Dayat adalah \\[x^2+4x-12\\], jika diketahui panjang dari kolam ikan Pak Santo adalah \\[x+6\\], maka tentukan lebar kolam ikan haruan Pak Santo . . . ?",
+        "a": "\\[ x-2\\]",
+        "b": "\\[ x+2\\]",
+        "c": "\\[ x+6\\]",
+        "d": "\\[ x-6\\]",
+        "benar": "a",
+        "nih": "\\[ x-2 \\]"
+    }
+}, {
+    "soal15": {
+        "soal": "Bentuk sederhana dari \\[ \\frac{b}{3} + \\frac{a-3}{2b} \\] adalah . . . .",
+        "a": "\\[ \\frac{2b^2+3a-9}{6b}\\]",
+        "b": "\\[ \\frac{b^2+3a-9}{3b}\\]",
+        "c": "\\[ \\frac{2b^2+a-3}{2b}\\]",
+        "d": "\\[ \\frac{2b^2+3a-9}{2b}\\]",
+        "benar": "a",
+        "nih": "\\[ \\frac{2b^2+3a-9}{6b} \\]"
+    }
+}, {
+    "soal16": {
+        "soal": "Bentuk sederhana dari \\[ \\frac{3}{x+3}-\\frac{5}{x+2} \\]adalah . . . .",
+        "a": "\\[ \\frac{-2x-9}{x^2+5x+6}\\]",
+        "b": "\\[ \\frac{-2x+9}{x^2+4x+6}\\]",
+        "c": "\\[ \\frac{-2x-6}{x^2+5x+3}\\]",
+        "d": "\\[ \\frac{2x-9}{x^2+2x+6}\\]",
+        "benar": "a",
+        "nih": "\\[ \\frac{-2x-9}{x^2+5x+6} \\]"
+    }
+}, {
+    "soal17": {
+        "soal": "Tentukan hasil pembagian pecahan bentuk aljabar berikut \\[ \\frac{2xy^2}{z} \\div \\frac{5yz}{4x} \\] . . .",
+        "a": "\\[ \\frac{8xy^2}{4yz}\\]",
+        "b": "\\[ \\frac{6x^2y^2}{5yz^2}\\]",
+        "c": "\\[ \\frac{5y^2}{yz^2}\\]",
+        "d": "\\[ \\frac{8x^2y}{5z^2}\\]",
+        "benar": "d",
+        "nih": "\\[ \\frac{8x^2y}{5z^2} \\]"
+    }
+}, {
+    "soal18": {
+        "soal": "Tentukan hasil perkalian pecahan bentuk aljabar berikut \\[\\frac{5y^2}{z} \\times \\frac{xy}{4x^2}\\]  . . .",
+        "a": "\\[ \\frac{xy^3}{x^2z}\\]",
+        "b": "\\[ \\frac{5x^2y^3}{4x^2z}\\]",
+        "c": "\\[ \\frac{5y^3}{4xz}\\]",
+        "d": "\\[ \\frac{xy^3}{x^2z^2}\\]",
+        "benar": "c",
+        "nih": "\\[ \\frac{5y^3}{4xz} \\]"
+    }
+}, {
+    "soal19": {
+        "soal": "Tentukan hasil operasi berikut \\[\\frac{2c^2}{3a} \\div \\frac{2a}{6b}\\] . . . .",
+        "a": "\\[ 2 \\frac{c^2b}{a^2}\\]",
+        "b": "\\[ 3\\frac{c^2}{3ab^2}\\]",
+        "c": "\\[ 2\\frac{c^2}{9ab^2}\\]",
+        "d": "\\[ 3\\frac{c^2}{9a^2b}\\]",
+        "benar": "a",
+        "nih": "\\[ 2 \\frac{c^2b}{a^2}\\]"
+    }
+}]

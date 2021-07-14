@@ -1,0 +1,19 @@
+.waktu {
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    position: fixed;
+    border: solid 2px black;
+    padding: 2px 10px;
+    font-size: 16px;
+    right: 20px;
+    top: 45px;
+}
+
+@media (min-width : 992px) {
+    .waktu {
+        padding: 5px 15px;
+        font-size: 18px;
+        right: 20px;
+        top: 45px;
+    }
+}

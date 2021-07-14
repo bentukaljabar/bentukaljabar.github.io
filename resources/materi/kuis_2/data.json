@@ -1,0 +1,102 @@
+[{
+    "soal0": {
+        "soal": "Dalam melakukan operasi penjumlahan dan pengurangan tahapan berikut yang benar adalah. Kecuali . . . .",
+        "a": "Jabarkan",
+        "b": "Kelompokkan suku sejenisnya",
+        "c": "Jumlahkan atau kurangkan suku tak sejenis",
+        "d": "Jumlahkan atau kurangkan suku sejenis",
+        "benar": "c",
+        "nih": "Jumlahkan atau kurangkan suku tak sejenis"
+    }
+}, {
+    "soal1": {
+        "soal": "Hal yang perlu diperhatikan saat melakukan operasi penjumlahan dan pengurangan bentuk aljabar adalah . . . .",
+        "a": "Suku sejenisnya",
+        "b": "Suku tak sejenisnya",
+        "c": "Variabelnya",
+        "d": "Konstantanya",
+        "benar": "a",
+        "nih": "Suku sejenisnya"
+    }
+
+}, {
+    "soal2": {
+        "soal": "Sederhanakan bentuk aljabar berikut \\[15a+3a\\]  . . . .",
+        "a": "\\[18a\\]",
+        "b": "\\[12a\\]",
+        "c": "\\[15a + 3a\\]",
+        "d": "\\[13a + 15a\\]",
+        "benar": "a",
+        "nih": "\\[18a\\]"
+    }
+}, {
+    "soal3": {
+        "soal": "Tentukan hasil dari \\[7a - 4b + 3a - 3b\\] . . . . ",
+        "a": "\\[10a-b\\]",
+        "b": "\\[-3ab+6ab\\]",
+        "c": "\\[10a-7b\\]",
+        "d": "\\[-7b+7a\\]",
+        "benar": "c",
+        "nih": "\\[10a-7b\\]"
+    }
+}, {
+    "soal4": {
+        "soal": "Kurangkan \\[(4x-2y+10z)\\] oleh \\[(2x-5y+5z)\\] . . . .",
+        "a": "\\[2x+3y+5z\\]",
+        "b": "\\[2x - 7y + 5z\\]",
+        "c": "\\[-2x+3y-10z\\]",
+        "d": "\\[2x - 7y + 15z\\]",
+        "benar": "a",
+        "nih": "\\[2x+3y+5z\\]"
+    }
+}, {
+    "soal5": {
+        "soal": "Jumlahkan \\[(4s^2+5s)\\] dan \\[(3s^2+10)\\] adalah . . . . ",
+        "a": "\\[7s^2+15s\\]",
+        "b": "\\[s^2+5s+10\\]",
+        "c": "\\[7s^4+5s+10\\]",
+        "d": "\\[7s^2+5s+10\\]",
+        "benar": "d",
+        "nih": "\\[7s^2+5s+10\\]"
+    }
+}, {
+    "soal6": {
+        "soal": "Tentukan hasil dari \\[2a^2 + 3b^2 + 4b + 3a^2\\]. . . . ",
+        "a": "\\[2a^2+3b^2+4b\\]",
+        "b": "\\[5a^2+3b^2+4b\\]",
+        "c": "\\[5a^2+7b^2\\]",
+        "d": "\\[2a^2+7b^2\\]",
+        "benar": "b",
+        "nih": "\\[5a^2+3b^2+4b\\]"
+    }
+}, {
+    "soal7": {
+        "soal": "Pak Salim menolong Pak Anto memanen pohon binjai, dengan hasil 7 bakul penuh dan sisanya 4 binjai di luar bakul. Dengan asumsi  banyaknya binjai pada setiap bakul adalah sama, karena Pak Salim telah menolong Pak Anto, Pak Anto membagikan hasil panennya kepada Pak Salim sebanyak 2 bakul binjai. Tentukan sisa binjai Pak Anto jika banyak buah binjai dalam bakul dimisalkan dengan \\[x\\]. . . .",
+        "a": "\\[5x+4\\]",
+        "b": "\\[9x+6\\]",
+        "c": "\\[5x+2\\]",
+        "d": "\\[9x+4\\]",
+        "benar": "a",
+        "nih": "\\[5x+4\\]"
+    }
+}, {
+    "soal8": {
+        "soal": "Pak Budi memperoleh ikan papuyu sebanyak 10 Kg dan ikan sapat sebanyak 4 Kg  dari hasil ia mehancau. Kemudian Pak Budi membawa hasil ia mehancau kepasar, dari hasil penjualannya ikan papuyu tersisa sebanyak 2 Kg dan ikan sapat tersisa sebanyak 1 Kg. Maka tentukan hasil penjualan Pak Budi jika harga 1 Kg ikan papuyu dimisalkan dengan \\[a\\] rupian dan harga 1 kg ikan sapat dimisalkan dengan \\[b\\] rupiah",
+        "a": "\\[8a+2b\\]",
+        "b": "\\[2a+b\\]",
+        "c": "\\[8a+3b\\]",
+        "d": "\\[2a+3b \\]",
+        "benar": "c",
+        "nih": "\\[8a+3b\\]"
+    }
+}, {
+    "soal9": {
+        "soal": "Diketahui  papan tulis berukuran panjang \\[(7x-5)\\] dan lebarnya \\[(5x+2)\\]. Maka berapakah keliling dari papan tulis tersebut . . . . ",
+        "a": "\\[12x-3\\]",
+        "b": "\\[24x-6\\]",
+        "c": "\\[6a+4b\\]",
+        "d": "\\[8a+4b\\]",
+        "benar": "b",
+        "nih": "\\[24x-6\\]"
+    }
+}]

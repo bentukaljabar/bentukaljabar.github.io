@@ -1,0 +1,1031 @@
+/* --------------------------AWAL HP CSS-------------------------------- */
+.judul-materi {
+    display: inline-block;
+    background-color: lightblue;
+    width: 80%;
+    padding: 3px 10px;
+    border-radius: 0px 10px 10px 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 3px;
+    border-left: 4px solid rgb(131, 176, 190);
+    height: 30px;
+}
+
+mjx-container {
+    display: inline-block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ol li {
+    font-size: 18px;
+    margin-left: 30px !important;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.masuk {
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.jarak_atas {
+    margin-top: 10px;
+}
+
+.jarak_bawah {
+    margin-bottom: 10px;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+hr {
+    height: 5px;
+    background-color: lightblue;
+    border: none;
+}
+
+.nah:hover {
+    cursor: pointer !important;
+}
+
+/* --------------------------TENGAH HP CSS-------------------------------- */
+.indent {
+    text-indent: 10px;
+    margin-right: 10px;
+}
+
+.indent_1 {
+    text-indent: 22.4px;
+}
+
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.tebal {
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.percakapan1 {
+    margin-left: 15px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.percakapan1 td {
+    vertical-align: top;
+}
+
+.atur_gambar {
+    text-align: center;
+}
+
+.atur_gambar img {
+    width: 65%;
+}
+
+.note {
+    font-size: 13px !important;
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.tabel1 {
+    margin-left: 0px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.tabel1 table,
+.tabel1 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.awal_gambar {
+    height: 45px !important;
+    float: none;
+    transform: rotate(90deg);
+    display: block;
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-bottom: -14px;
+}
+
+.next_gambar {
+    height: 70px !important;
+    transform: rotate(90deg);
+    margin-top: -8px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.jdl {
+    width: 40%;
+    padding: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.jdl1 {
+    width: 60%;
+    padding: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.jml_se {
+    padding: 0px 2px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.ket_se {
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.tabel1 mjx-container {
+    font-size: 15px !important;
+}
+
+mjx-container {
+    font-size: 15px !important;
+}
+
+.petunjuk {
+    display: inline-block;
+    background-color: lightblue;
+    width: 80%;
+    padding: 3px 10px;
+    border-radius: 0px 10px 10px 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 3px;
+    border: 2px solid rgb(131, 176, 190);
+    height: 30px;
+    color: black;
+}
+
+.petunjuk:hover {
+    cursor: pointer;
+}
+
+.isinya {
+    padding: 3px 10px;
+    border: 2px solid rgb(131, 176, 190);
+    margin-left: 3px;
+    margin-top: -5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.isinya ol li {
+    margin-left: 18px;
+    margin-right: -10px;
+}
+
+.langkah {
+    display: inline-block;
+    background-color: lightblue;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 5px;
+    border-radius: 0 0 0 0;
+    text-align: center;
+    border: 2px solid rgb(131, 176, 190);
+}
+
+.ke {
+    display: inline-block;
+    background-color: lightblue;
+    font-weight: bold;
+    padding: 5px 5px;
+    padding-right: 10px;
+    border-radius: 0 15px 0 0;
+    text-align: center;
+    border: 2px solid rgb(131, 176, 190);
+}
+
+.ke_aktif {
+    background-color: rgb(131, 176, 190) !important;
+    padding-top: 10px;
+}
+
+.ke:hover {
+    cursor: pointer;
+    background-color: rgb(131, 176, 190) !important;
+    padding-top: 10px;
+}
+
+.langkahnya {
+    width: 100%;
+    background-color: white;
+    border: 2px solid rgb(131, 176, 190);
+    margin-top: -2px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.langkahnya table,
+.langkahnya td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.langkahnya td {
+    padding: 5px;
+}
+
+.sntan {
+    height: 40px;
+    margin: 5px;
+}
+
+.kacang {
+    width: 40px;
+    margin: 5px;
+}
+
+.nobolder td,
+.nobolder {
+    border: none !important;
+    padding: 0px;
+}
+
+.aa {
+    width: 25%;
+}
+
+.aaa {
+    width: 70%;
+}
+
+.langkahnya ul {
+    margin-left: 20px;
+}
+
+.kain1 {
+    width: 60px;
+}
+
+.kain2 {
+    width: 50px;
+}
+
+.xy,
+.xy1 {
+    width: 20px;
+    text-align: center;
+    margin: 0px;
+    margin-left: -3px;
+    margin-right: -4px;
+    display: inline-block;
+}
+
+.coba,
+.coba1 {
+    display: inline;
+    margin-right: 5px;
+}
+
+.salah {
+    border: 1px solid red;
+}
+
+.benar {
+    border: 1px solid green;
+}
+
+.ulang,
+.ulang1,
+.Perbesarlah {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: lightblue;
+    border: 1px solid rgb(131, 176, 190);
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.sudah_baca {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: lightblue;
+    border: 1px solid rgb(131, 176, 190);
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.ulang:hover {
+    cursor: pointer;
+}
+
+.ulang1:hover {
+    cursor: pointer;
+}
+
+.sudah_baca:hover {
+    cursor: pointer;
+}
+
+.Perbesarlah:hover {
+    cursor: pointer;
+}
+
+
+/* tooltip */
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    /* atas */
+    /* bottom: 125%;
+    left: 50%;
+    margin-left: -80px; */
+    /* bawah */
+    top: 135%;
+    left: 50%;
+    margin-left: -80px;
+    font-size: 12px !important;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+}
+
+
+.interaktif {
+    text-align: center;
+    width: 90%;
+    height: 300px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.pertanyaan {
+    border: 2px solid rgb(131, 176, 190);
+    padding: 5px 8px;
+    margin-left: 4px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.soalpertanyaan {
+    border-left: 3px solid rgb(131, 176, 190);
+    padding: 4px;
+    margin-top: 5px;
+}
+
+
+
+.dua {
+    width: 40%;
+    display: inline-block;
+    float: right;
+    margin-left: 10px;
+
+
+}
+
+
+.amparan {
+    width: 100%;
+}
+
+label {
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+label p {
+    display: inline-block;
+}
+
+.jawaban_input {
+    font-size: 15px;
+
+}
+
+.sebelumnya,
+.cek_jawaban,
+.selanjutnya {
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: lightblue;
+    border: 1px solid rgb(131, 176, 190);
+    margin-top: 10px;
+    font-size: 3.5vw;
+}
+
+.sebelumnya:hover,
+.cek_jawaban:hover,
+.selanjutnya:hover {
+    cursor: pointer;
+}
+
+.ketjwb1,
+.ketjwb2,
+.ketjwb3 {
+    background-color: lightblue;
+    padding: 5px 10px;
+}
+
+.center1 {
+    margin-left: 0px;
+}
+
+.divscrath {
+    overflow: hidden;
+    height: 272px;
+}
+
+.scratch {
+    margin-top: -40px;
+    width: 100%;
+    height: 252px;
+}
+
+.ketgambar {
+    width: 6.5vw;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: -14px;
+}
+
+.ketgambar:hover {
+    cursor: pointer;
+}
+
+.next_pensil {
+    background-color: lightblue;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    border: 1px solid rgb(131, 176, 190);
+    border-radius: 5px;
+}
+
+.next_pensil:hover {
+    cursor: pointer;
+}
+
+.kebelakang {
+    z-index: -100;
+}
+
+.ukuran {
+    width: 80% !important;
+}
+
+
+.lala video {
+    width: 80vw;
+}
+
+
+
+/* --------------------------AKHIR HP CSS-------------------------------- */
+
+
+
+
+@media (min-width : 400px) {
+
+    .sebelumnya,
+    .cek_jawaban,
+    .selanjutnya {
+        font-size: 3.8vw;
+        margin-left: 2px;
+    }
+
+    p {
+        font-size: 18px !important;
+    }
+
+    label {
+        font-size: 18px;
+        display: inline-block;
+    }
+
+    .jawaban_input {
+        font-size: 18px;
+
+    }
+
+
+    mjx-container {
+        font-size: 18px !important;
+    }
+
+    .awal_gambar {
+        height: 53px !important;
+        float: none;
+        transform: rotate(90deg);
+        display: block;
+        margin-top: -18px;
+        margin-left: 60px;
+        margin-bottom: -18px;
+    }
+
+    .next_gambar {
+        height: 90px !important;
+        transform: rotate(90deg);
+        margin-top: -8px;
+        margin-left: 22px;
+        margin-right: 8px;
+
+    }
+
+    .sudah_baca {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: lightblue;
+        border: 1px solid rgb(131, 176, 190);
+        border-radius: 10px;
+        margin-left: 30%;
+        margin-top: 10px;
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .sebelumnya,
+    .cek_jawaban,
+    .selanjutnya {
+        padding: 1.5px 5px;
+        font-size: 3.2vw;
+
+    }
+
+}
+
+
+
+@media (min-width : 600px) {
+
+
+
+    p {
+        font-size: 18px !important;
+    }
+
+    .tabel1 table {
+        margin-left: 25%;
+    }
+
+    .awal_gambar {
+        height: 53px !important;
+        float: none;
+        transform: rotate(90deg);
+        display: block;
+        margin-top: -18px;
+        margin-left: 60px;
+        margin-bottom: -25px;
+    }
+
+    .next_gambar {
+        height: 90px !important;
+        transform: rotate(90deg);
+        margin-top: -8px;
+        margin-left: 22px;
+        margin-right: 8px;
+        display: block;
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------AWAL WINDOW CSS-------------------------------- */
+@media (min-width : 992px) {
+    .judul-materi {
+        width: 50%;
+        font-size: 23px;
+
+    }
+
+    mjx-container {
+        font-size: 1.6vw !important;
+    }
+
+    .petunjuk {
+        width: 50%;
+        font-size: 23px;
+    }
+
+    .isinya {
+        font-size: 23px;
+    }
+
+    .ubahdikit {
+        border-radius: 10px 0px 0px 10px;
+        float: right;
+        border-left: none;
+        border-right: 4px solid rgb(131, 176, 190);
+        border-top: 4px solid rgb(131, 176, 190);
+        border-left: 4px solid rgb(131, 176, 190);
+    }
+
+    .ubahdikit1 {
+        border-left: 4px solid rgb(131, 176, 190);
+        border-right: 4px solid rgb(131, 176, 190);
+        border-top: 4px solid rgb(131, 176, 190);
+    }
+
+    .dalamnya {
+        border: 4px solid rgb(131, 176, 190);
+        margin-top: -3px;
+        margin-right: 3px;
+        box-sizing: border-box;
+        padding-bottom: 9px;
+    }
+
+    .lah {
+        margin-left: 3px;
+        height: 69px;
+    }
+
+    .ubahdikit p {
+        text-align: right;
+    }
+
+    ol li {
+        font-size: 1.6vw;
+        margin-left: 50px;
+    }
+
+    nav {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .masuk {
+        font-size: 1.6vw !important;
+    }
+
+    form .button {
+        font-size: 18px;
+        margin-left: 20px;
+        padding: 2px 6px;
+    }
+
+    form label {
+        font-size: 18px;
+    }
+
+    table p {
+        font-size: 1.6 vw;
+
+    }
+
+    .atur_gambar img {
+        width: auto;
+    }
+
+    .nah {
+        width: 50%;
+    }
+
+    .judul-materi .nah:hover {
+        cursor: pointer !important;
+    }
+
+    .syarat,
+    .tujuan {
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+    }
+
+
+    /* --------------------------TENGAH WINDOW CSS-------------------------------- */
+    .indent_1 {
+        text-indent: 25.9px;
+    }
+
+    .tebal {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .note {
+        font-size: 15px !important;
+        margin-top: 20px;
+    }
+
+    .tabel1 table {
+        margin-left: 0;
+    }
+
+    .tabel1 mjx-container {
+        font-size: 22px !important;
+    }
+
+    .awal_gambar {
+        height: 47px !important;
+        float: left;
+        padding-right: 2px;
+        margin-top: 15px;
+        transform: rotate(0deg);
+        margin-left: 5px;
+        padding-top: 10px;
+
+    }
+
+    .next_gambar {
+        height: 82px !important;
+        transform: rotate(0deg);
+        margin-left: 0;
+        margin-top: 0px;
+        margin-right: 0;
+        display: inline;
+        padding: 8px 0px;
+    }
+
+    .em {
+        margin-right: 20px;
+    }
+
+    .jml_se {
+        padding: 0px 8px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .jdl {
+        width: 50%;
+        padding: 2px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .jdl1 {
+        width: 50%;
+        padding: 2px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .langkah {
+        font-size: 20px !important;
+        padding: 5px !important;
+    }
+
+    .ke:hover {
+        cursor: pointer;
+        background-color: rgb(131, 176, 190) !important;
+        padding-top: 10px;
+    }
+
+    .ke_aktif {
+        background-color: rgb(131, 176, 190) !important;
+        padding-top: 10px !important;
+    }
+
+    .ke {
+        display: inline-block;
+        background-color: lightblue;
+        font-size: 1.6vw;
+        width: 11px;
+    }
+
+    .langkahnya {
+        width: 100%;
+        background-color: white;
+        border: 2px solid rgb(131, 176, 190);
+        margin-top: -2px;
+        padding: 5px;
+        box-sizing: border-box;
+        font-size: 20px;
+    }
+
+    .langkahnya table {
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    .sntan {
+        height: 80px;
+        margin: 5px;
+    }
+
+    .kacang {
+        width: 100px;
+        margin: 5px;
+    }
+
+    .aa {
+        width: 200px;
+    }
+
+    .aaa {
+        width: 85%;
+    }
+
+    p {
+        font-size: 1.6vw !important;
+    }
+
+    .kain1 {
+        width: 99px;
+    }
+
+    .kain2 {
+        width: 80px;
+    }
+
+    .xy,
+    .xy1 {
+        width: 30px;
+        text-align: center;
+    }
+
+    .ulang,
+    .ulang1,
+    .sudah_baca,
+    .Perbesarlah {
+        margin-left: 45%;
+
+    }
+
+
+
+    .popup .popuptext {
+        font-size: 18px !important;
+        padding: 10px;
+    }
+
+    .popup .popuptext::after {
+        margin-left: -15px !important;
+    }
+
+    .interaktif {
+        text-align: center;
+        width: 80%;
+        height: 450px;
+        margin-left: 100px;
+    }
+
+
+    .soalpertanyaan {
+        border-left: 3px solid rgb(131, 176, 190);
+        padding: 4px;
+        margin-top: 5px;
+    }
+
+
+
+    .dua {
+        width: 25%;
+        display: inline-block;
+        float: right;
+        margin-left: 10px;
+        padding-left: 30px;
+
+    }
+
+    .amparan {
+        width: 80%;
+    }
+
+    label {
+        font-size: 20px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+
+    label p {
+        display: inline-block;
+    }
+
+    .jawaban_input {
+        font-size: 20px;
+        width: 300px;
+
+    }
+
+    .sebelumnya,
+    .cek_jawaban,
+    .selanjutnya {
+        font-size: 1.6vw;
+        margin-left: 3px;
+        padding: 2px 10px;
+    }
+
+    .center1 {
+        margin-left: 170px;
+    }
+
+    .divscrath {
+        overflow: hidden;
+        height: 460px;
+    }
+
+    .scratch {
+        margin-top: -40px;
+        width: 100%;
+        height: 502px;
+    }
+
+    .ketgambar {
+        width: 2.5vw;
+        position: absolute;
+        margin-top: 4px;
+        margin-left: 10px;
+    }
+
+    .next_pensil {
+        background-color: lightblue;
+        padding: 5px;
+        display: inline-block;
+        margin-top: 10px;
+        border: 1px solid rgb(131, 176, 190);
+        border-radius: 5px;
+    }
+
+    .next_pensil:hover {
+        cursor: pointer;
+    }
+
+    .lala video {
+        width: 50vw;
+    }
+
+    /* --------------------------AKHIR WINDOW CSS-------------------------------- */
+
+}

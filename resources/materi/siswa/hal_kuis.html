@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluasi</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> <!-- prompt -->
+
+    <!-- mathjax -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <!-- prompt -->
+    <link rel="stylesheet" href="css/popupmodal.css">
+    
+    <!-- css custome -->
+    <link rel="stylesheet" href="css/style_kuis.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="img/sign-out-alt-solid.svg" type="image/png" sizes="16x16"> 
+</head>
+<body>
+    
+    <div class="bg">
+        <!-- atas -->
+        <div class="topp">
+            <div class="judul">
+                <p id="isi_judul"></p>
+            </div>
+            
+            <!-- <div class="user" id="bg_nama_user" >
+                <p id="nama_user"></p>
+                
+            </div> -->
+        </div>
+
+        <!-- kiri -->
+        <div class="kanan">
+
+            
+        </div>
+        <!-- kanan -->
+        <div class="kiri">
+            
+            <div class="waktu">
+                <div class="bg_full">
+                    <p class="text">Batas Waktu</p>
+                </div>
+                <p id="demo">00:00</p>
+            </div>
+
+            <div class="bg_nav">
+                <div class="bg_full">
+                    <p class="text">Nomor Soal</p>
+                </div>
+                <div class="bg_soal">
+                </div>
+            </div>
+            <div class="selesai">SELESAI</div>
+        </div>
+    </div>
+
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
+
+    <!-- prompt -->
+    <script src="js/polyfill.js"></script>
+    <script src="js/popupmodal-min.js"></script>
+
+    <!-- js custome -->
+    <script src="js/firebaseKoneksi.js"></script>
+    <script src="js/hal_kuis.js"></script>
+
+
+</body>
+</html>

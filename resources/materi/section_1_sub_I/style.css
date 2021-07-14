@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+}
+
+/* navbar */
+.atas {
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.932);
+}
+
+.bg {
+    width: 100%;
+    display: inline-block;
+    letter-spacing: 4px;
+    padding: 2px 16px;
+    background-color: rgb(131, 176, 190);
+}
+
+.bg .icon {
+    margin-top: 5px;
+    height: 20px;
+    background-image: url(gambar/icon_bar.png);
+    background-repeat: no-repeat;
+    padding: 8px 16px;
+    float: left;
+}
+
+.bg p {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.tengah {
+    margin-top: 45px;
+}
+
+/* navigasi */
+.navigasi {
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: lightblue;
+    border-bottom: 2px solid rgb(131, 176, 190);
+}
+
+.navigasi a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigasi .sub-bagian {
+    margin-left: 20px;
+    list-style-type: circle;
+}
+
+.navigasi a:hover {
+    background-color: rgb(131, 176, 190);
+    font-size: 22px;
+    font-style: bold;
+}
+
+ul li a {
+    display: inline-block;
+    width: 100%;
+}
+
+.aktif {
+    background-color: rgb(131, 176, 190);
+    font-size: 22px;
+    font-style: bold;
+}
+
+.navigasi-hilang {
+    display: none;
+}
+
+.konten-penuh,
+.konten {
+    background-color: lightblue;
+    padding: 10px 20px;
+}
+
+.judulnya {
+    border-bottom: 5px solid rgb(131, 176, 190);
+}
+
+.judul {
+    text-align: center;
+    font-size: 30px;
+}
+
+.kiri {
+    background-color: white;
+    margin-top: 5px;
+    padding: 15px;
+    text-align: justify;
+    border: 3px solid rgb(131, 176, 190);
+    /* outline: 2px solid rgb(131, 176, 190);
+    outline-offset: -10px; */
+
+}
+
+.kanan {
+    background-color: white;
+    margin-top: 5px;
+    padding: 15px;
+    text-align: justify;
+    border: 3px solid rgb(131, 176, 190);
+    /* outline: 2px solid rgb(131, 176, 190);
+    outline-offset: -10px; */
+
+}
+
+.bawah,
+.bawah-hilang {
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(131, 176, 190);
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.next {
+    position: relative;
+}
+
+.next img {
+    height: 30px;
+    float: right;
+    position: absolute;
+    top: -16px;
+    right: -210px;
+}
+
+.previous {
+    position: relative;
+}
+
+.previous img {
+    height: 30px;
+    float: right;
+    position: absolute;
+    top: 24px;
+    left: -210px;
+}
+
+.p_atas {
+    float: left;
+}
+
+.home {
+    position: absolute;
+    top: 0;
+    right: 0;
+    letter-spacing: 4px;
+    padding: 14px 16px;
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.home a:hover {
+    color: lightblue;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------*/
+/* Destok version  */
+@media (min-width : 992px) {
+    .bg {
+        padding: 7px 16px;
+    }
+
+    .bg p {
+        font-size: 20px;
+    }
+
+    .tengah {
+        width: 100%;
+        margin-top: 55px;
+        height: 595px;
+        box-sizing: border-box;
+    }
+
+    .navigasi {
+        padding: 10px 25px;
+        font-size: 20px;
+        width: 25%;
+        background-color: lightblue;
+        height: 599px;
+        float: left;
+        position: fixed;
+        box-sizing: border-box;
+        box-shadow: 5px 0 10px rgba(0, 0, 0, 0.932);
+    }
+
+    .konten-penuh {
+        width: 100%;
+        float: right;
+        background-color: lightblue;
+        box-sizing: border-box;
+        padding: 10px 20px;
+    }
+
+    .konten {
+        width: 75%;
+        float: right;
+        background-color: lightblue;
+        box-sizing: border-box;
+        padding: 10px 20px;
+    }
+
+    .inti-konten {
+        width: 100%;
+    }
+
+    .kiri {
+        float: left;
+        width: 50%;
+        background-color: white;
+        height: 533px;
+        overflow: auto;
+        padding: 20px;
+        text-align: justify;
+        box-sizing: border-box;
+        /* outline: 4px solid rgb(131, 176, 190);
+        outline-offset: -20px; */
+    }
+
+    .kanan {
+        float: right;
+        width: 50%;
+        background-color: white;
+        height: 533px;
+        overflow: auto;
+        padding: 20px;
+        text-align: justify;
+        box-sizing: border-box;
+        /* outline: 4px solid rgb(131, 176, 190);
+        outline-offset: -20px; */
+    }
+
+    .konten-ubah {
+        width: 50%;
+        background-color: white;
+        height: 533px;
+        overflow: auto;
+        height: 500px !important;
+    }
+
+    .bawah {
+        display: inline-block;
+        height: 34px;
+        width: 100%;
+        text-align: center;
+        background-color: rgb(131, 176, 190);
+        line-height: 34px;
+    }
+
+    .bawah-hilang {
+        display: inline-block;
+        height: 34px;
+        width: 100%;
+        text-align: center;
+        background-color: rgb(131, 176, 190);
+        display: none;
+    }
+
+    .next img {
+        height: 28px;
+        top: -10px;
+        right: -310px;
+    }
+
+    .previous img {
+        height: 28px;
+        top: 24px;
+        left: -310px;
+    }
+
+    .home {
+        font-size: 20px;
+    }
+
+
+
+
+
+    /* reset float */
+    .cf:before,
+    .cf:after {
+        content: " ";
+        /* 1 */
+        display: table;
+        /* 2 */
+    }
+
+    .cf:after {
+        clear: both;
+    }
+
+    .cf {
+        *zoom: 1;
+    }
+}
