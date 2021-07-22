@@ -271,7 +271,7 @@ const hitung_skor = (banyak_soal) =>{
                         pil_userr.push(pils_soal[j].attributes.key.value);
                         if (pils_soal[j].attributes.key.value == kunci[urutan_soal[i]]) {
                             
-                            hasilakhir = hasilakhir + poinnya;
+                            hasilakhir = hasilakhir + parseInt(poinnya);
                             benarr = benarr + 1;
                             ket_user.push("benar")
                         } else {
