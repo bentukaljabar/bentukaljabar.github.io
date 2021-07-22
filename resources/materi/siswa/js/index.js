@@ -14,7 +14,7 @@ token.value="";
 if(id_user == undefined){
         bgkanan.innerHTML =`
         <center style="margin: 50% auto;">
-            <h1>Anda halur login atau bergabung kelas terlebih dahulu.</h1>
+            <h1>Anda halus login atau bergabung kelas terlebih dahulu.</h1>
         </center>
         `
 }else{
