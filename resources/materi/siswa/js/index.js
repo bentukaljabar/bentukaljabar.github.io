@@ -13,7 +13,7 @@ token.value="";
 
 if(id_user == undefined){
         bgkanan.innerHTML =`
-        <center style="margin: 50% auto;">
+        <center style="margin: 40vh auto; padding: 0px 100px;">
             <h1>Anda halus login atau bergabung kelas terlebih dahulu.</h1>
         </center>
         `
