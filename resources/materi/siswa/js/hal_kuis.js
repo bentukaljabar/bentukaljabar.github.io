@@ -259,6 +259,7 @@ function kanan_akhir(nama,kelas,skor,keterangan,waktu){
 
 // menghitung skor dan menmapilkan hasil layar
 const hitung_skor = (banyak_soal) =>{
+    console.log('ok')
     hasilakhir = 0;
     benarr = 0;
 
