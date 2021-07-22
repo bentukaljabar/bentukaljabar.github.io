@@ -194,7 +194,8 @@ function simpanHasil(nama, iduser, kelas, token, skor, waktu, id_kelas) {
         token: token,
         skor: skor,
         waktu: waktu,
-        id_kelas
+        id_kelas,
+        tgl : hari()
     }
 
     let data = "hasilSoal/"+id_guru+"/"+token+"/"+counter+"/";
@@ -512,4 +513,19 @@ function backupPilihan(banyak_soal){
             
         }
     }
+}
+
+function hari() {
+    tanggallengkap = new String();
+    namahari = ("Minggu Senin Selasa Rabu Kamis Jumat Sabtu");
+    namahari = namahari.split(" ");
+    namabulan = ("Januari Februari Maret April Mei Juni Juli Agustus September Oktober November Desember");
+    namabulan = namabulan.split(" ");
+    tgl = new Date();
+    hari = tgl.getDay();
+    tanggal = tgl.getDate();
+    bulan = tgl.getMonth();
+    tahun = tgl.getFullYear();
+    tanggallengkap = namahari[hari] + ", " + tanggal + " " + namabulan[bulan] + " " + tahun;
+    return (tanggallengkap);
 }
