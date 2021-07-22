@@ -88,6 +88,7 @@ function periksaToken(token, callback) {
                 localStorage.setItem("id_token", childData.id);
                 localStorage.setItem("token", childData.token);
                 localStorage.setItem("id_guru", childData.id_guru);
+                localStorage.setItem("poin_soal", childData.poin_soal);
                 benar = 1;
             }
 
