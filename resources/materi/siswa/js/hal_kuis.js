@@ -4,6 +4,7 @@ const level_user = localStorage.getItem('level_user');
 const id_token = localStorage.getItem('id_token');
 const id_guru = localStorage.getItem('id_guru');
 const token = localStorage.getItem('token');
+const poinnya = localStorage.getItem('poin_soal')
 const id_kelas = localStorage.getItem('id_kelas');
 const bg_nav_soal =document.querySelector('.bg_soal');
 let bg_soal =document.querySelector('.kanan');
@@ -268,7 +269,7 @@ const hitung_skor = (banyak_soal) =>{
                     if (pils_soal[j].checked == true) {
                         pil_userr.push(pils_soal[j].attributes.key.value);
                         if (pils_soal[j].attributes.key.value == kunci[urutan_soal[i]]) {
-                            hasilakhir = hasilakhir + 10;
+                            hasilakhir = hasilakhir + poin_soal;
                             benarr = benarr + 1;
                             ket_user.push("benar")
                         } else {
