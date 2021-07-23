@@ -6,7 +6,7 @@ let nama_user = document.getElementById('nama_user');
 let sekolah_user = document.getElementById('sekolah_user');
 let kelas_user = document.getElementById('kelas_user');
 let bgkanan = document.querySelector('.data_diri');
-
+let  mulai = document.getElementById('mulai');
 let token = document.getElementById('token');
 
 token.value="";
@@ -40,12 +40,13 @@ if(id_user == undefined){
                 nama_user.innerHTML = namaLengkapUser;
                 kelas_user.innerHTML = kelas;
                 sekolah_user.innerHTML = sekolah;
+                mulai.classList.toggle('hilang');
 
             });
 
 
             // ketika tombol masuk diklik
-            let  mulai = document.getElementById('mulai');
+            
             mulai.addEventListener('click', function(){
 
                 if(token.value == ""){
